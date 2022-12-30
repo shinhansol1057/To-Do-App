@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  background-image: url("images/background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  padding-top: 20px;
+}
+
+span {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: white;
+  min-height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-top: 10px solid aquamarine;
+  border-bottom: 10px solid aquamarine;
+  max-width: 800px;
+}
+
+.task-input {
+  width: 70%;
+}
+
+.task-area {
+  border: 1px solid lightgray;
+}
+
+.plus-button {
+  background-color: aquamarine;
+  border: 0;
+}
+
+.task-tabs {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  position: relative;
+}
+
+.task-tabs div {
+  padding: 1em;
+}
+
+#under-line {
+  height: 6px;
+  background-color: aquamarine;
+  position: absolute;
+  width: 40px;
+  left: 0px;
+  top: 50px;
+  padding: 0;
+  transition: 0.5s;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  position: relative;
+}
+
+.task span {
+  padding: 1em;
+}
+
+.button-box {
+  display: flex;
+}
+
+.task-done {
+  text-decoration: line-through;
+  background-color: gray;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.check-button {
+  background-color: white;
+  border: 0;
+  width: 5em;
+  color: green;
+}
+
+.delete-button {
+  background-color: white;
+  border: 0;
+  width: 5em;
+  color: red;
+}
+
+.task-tabs div {
+  cursor: pointer;
+}
